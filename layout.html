@@ -1,0 +1,53 @@
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Layouts</title>
+      <link rel="stylesheet" href="./reset.css" />
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+        .clearfix {
+          clear: both;
+        }
+        .col {
+          padding: 5px 15px;
+          max-height: 400px;
+          overflow: auto; /** para que tenga scroll */
+          float: left;
+        }
+        .col-25 {
+          width: 25%;
+        }
+        .col-50 {
+          width: 50%;
+        }
+        .col-100 {
+          width: 100%;
+        }
+        @media(max-width: 650px) {
+          .col {
+            width: 100%;
+          }
+        }
+      </style>
+  </head>
+  <body>
+    <p>un texto</p>
+    <div class="clearfix"></div>
+    <div class="col col-25" style="background: red;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et mauris a mi tristique interdum nec quis ante. Morbi non dui accumsan, vestibulum lacus ac, facilisis massa. Mauris accumsan feugiat vulputate. Vivamus ut sapien erat. Sed iaculis est in nisi luctus, id fringilla ipsum commodo. Phasellus molestie imperdiet fermentum. Duis ultricies vestibulum urna a laoreet. Maecenas tincidunt, nunc pulvinar lacinia mattis, diam erat tincidunt sem, non suscipit tortor metus a purus. Nullam nisi quam, iaculis a blandit eget, pulvinar quis augue. Nunc sit amet odio sed metus elementum sollicitudin eget sed nulla.
+    </div>    
+    <div class="col col-25" style="background: green;">
+        Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eu diam vel nunc congue pretium vel hendrerit velit. Nunc eleifend tincidunt turpis vel fermentum. Etiam tristique luctus mi, eu mattis metus ultrices sed. Cras et dolor volutpat arcu vestibulum scelerisque. Proin sed venenatis erat. Nam faucibus erat orci, quis mollis arcu suscipit at. Donec et aliquet quam, sit amet sagittis augue. Proin nec risus nec nisl blandit vestibulum vel vel ante. Morbi vitae purus dignissim, consectetur tortor vel, aliquam velit. Maecenas urna eros, aliquet quis erat eu, lacinia aliquam ante. Praesent et convallis eros. Nam id placerat nisl. Mauris rhoncus risus id ante venenatis vehicula. Quisque faucibus ultricies risus, in rhoncus lorem cursus nec.
+    </div>    
+    <div class="col col-50" style="background: blue;">
+        Etiam dui eros, porttitor at lacus nec, venenatis consequat orci. Nunc convallis volutpat elit eget ultricies. Sed sodales pharetra quam, at pulvinar ligula fermentum quis. Vivamus malesuada urna a metus posuere, vel tristique arcu pellentesque. Quisque nunc tellus, fringilla ullamcorper feugiat vitae, eleifend non metus. Phasellus vestibulum est eu tellus pharetra interdum. Curabitur vestibulum odio pellentesque mi tincidunt aliquam. Vivamus sit amet blandit nibh. Proin ullamcorper aliquam metus, vel laoreet odio vulputate id. Curabitur lacus eros, consectetur in posuere in, venenatis eu dui. Suspendisse turpis eros, posuere vel turpis ac, luctus egestas sapien. Maecenas nunc dolor, ultrices in viverra non, elementum sit amet augue. Donec in mattis nibh, quis sollicitudin magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi lobortis purus quis pretium congue.
+    </div>
+    <div class="col col-100" style="background: yellow;">
+        Cras nec orci eu neque finibus tincidunt at et lorem. Nunc at urna libero. Praesent pellentesque quam vitae turpis consectetur bibendum. Quisque tincidunt neque vitae tortor congue, nec maximus leo auctor. Nunc malesuada ultrices tincidunt. Quisque a nisl justo. Duis ex leo, tristique non cursus ac, consectetur ut leo. Vestibulum commodo odio sed laoreet eleifend. Cras efficitur scelerisque varius. Sed accumsan fermentum sapien, sit amet cursus risus tempor eget. Ut elementum nisi eu feugiat vehicula. Mauris viverra sagittis nunc at ullamcorper. Proin vitae odio metus. Nam ornare purus mauris, ut euismod nulla gravida non. Fusce efficitur libero at cursus pellentesque.
+    </div>
+    <div class="clearfix"></div>
+    <p>otro texto</p>
+  </body>
+</html>
